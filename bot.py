@@ -17,11 +17,6 @@ async  def prefix(ctx):
     await ctx.send(embed=(discord.Embed(title='🌀 The prefix of this bot is ```;```',
                                     color=discord.Color.purple())
                         ))
-
-# @client.event
-# async def on_message(message):
-#     await client.delete_message("```elm\nSearching\n```",delay=7)
-
 @client.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
