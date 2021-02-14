@@ -30,11 +30,11 @@ async  def ping(ctx):
 
 @client.command(name='credits',help='This command returns the credits')
 async def credits(ctx):
-        await ctx.send('```yml\nDevelopers : Rajesh Giri & Saajan Shrestha\n```')
+        await ctx.send('```yml\nDevelopers : Rajesh Giri & craziee_KinG \n```')
     
 @client.command(name='helpers',help='This command returns the helpers')
 async def helper(ctx):
-        await ctx.send('```yml\nHelpers : Ujjwal Khanal & Sandip Nepal\n```')
+        await ctx.send('```yml\nHelpers : uzAYNoll & YaLaWoLf \n```')
 
 @tasks.loop(seconds=696)
 async def change_status():
