@@ -13,7 +13,7 @@ colorama==0.4.4
 DateTime==4.3
 delete==0.3.0
 discord==1.0.1
-discord.py==1.6.0
+discord.py==1.5.1
 google-api-core==1.23.0
 google-api-python-client==1.12.8
 google-auth==1.23.0
@@ -43,8 +43,9 @@ toml==0.10.2
 typing-extensions==3.7.4.3
 uritemplate==3.0.1
 urllib3==1.26.2
+wavelink==0.9.6
 wrapt==1.12.1
 yarl==1.5.1
-youtube-dl==2021.1.24.1
+youtube-dl==2020.12.7
 youtube-search==1.1.1
 zope.interface==5.2.0
