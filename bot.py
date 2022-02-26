@@ -39,4 +39,4 @@ async def helper(ctx):
 @tasks.loop(seconds=696)
 async def change_status():
        await client.change_presence(activity=discord.Game(choice(status)))
-client.run('Nzg1ODQ0MzA4NDY0MTA3NTIy.X89wiw.e8zMgTtiMnAaflmezeVN109Aj1w')
+client.run('##')
